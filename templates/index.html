@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merge Excel Files</title>
+</head>
+<body>
+    <h1>Upload Excel Files to Merge</h1>
+    <form action="/merge" method="post" enctype="multipart/form-data">
+        <input type="file" name="excel_files" multiple required>
+        <br><br>
+        <button type="submit">Merge and Download</button>
+    </form>
+</body>
+</html>
